@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+}
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 4px pink;
+}
+.container{
+    text-align: center;
+
+}
+.btn{
+    padding:30px 40px;
+    background-color: white;
+    border: none;
+    margin:10px;
+    font-size: 30px;
+    min-width: 200px;
+    box-shadow: 4px 4px 8px pink;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    background-size: cover;
+
+}
+.btn:hover{
+    color: pink;
+}
+.btn:active{
+    background-size: 105%;
+}
